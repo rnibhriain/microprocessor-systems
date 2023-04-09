@@ -1,0 +1,9 @@
+1. We allocate a memory address to the Input-Output devices and instructions related to memory can be accessed by these devices. The memory space is shared with external memory. 
+
+2. RAM is primary memory and Interface registers use secondary memory. 
+
+3. It can be resource hogging and it is difficult to implement on a system that is doing other things.
+
+4. You need more than one core to poll on more than one interface. Or you can poll for specified amounts of time before polling the other using loops.
+
+5. The CPU must poll frequently so nothing is missed which means there is a higher energy usage and wastage of computational power.
