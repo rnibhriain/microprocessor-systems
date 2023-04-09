@@ -1,0 +1,9 @@
+1. Saving any registers that are used during the subroutine on the stack, restoring at the end and only safe memory can be used.
+
+2. I save any registers used and the link register at the start of every subroutine and restore them at the end. I also return the result in the correct register.
+
+3. Ensure that any registers used are the same as before the subroutine is called and that the correct result is returned. Also ensure that there are no memory access violations.
+
+4. Repeated addition to implement multiplication is very costly as numbers get larger. There are a lot of operations as the multiplicates.
+
+5. If there was very deep recursion there is the risk of a stack overflow, particularly with storing the link register for evry call.
