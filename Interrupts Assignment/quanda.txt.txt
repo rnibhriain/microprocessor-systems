@@ -1,0 +1,10 @@
+1. The supervisor mode is privileged and the user mode is normal and unprivileged which means some protected resources cannot be accessed with user mode. 
+
+2. Preemptive scehduling prioritizes tasks and and switches to tasks that are ready to run.
+
+3. A general-purpose OS may not meet computational deadlines and may not work for a system that has a time limit. 
+
+4. You can use a Memory Management Unit to enforce privilege and can prevent a user straying out of certain real addresses and can also implement virtual memory. 
+
+5. For polling I/O the processor must stop working temporarily whereas with an interrupt the processors continues and only stops when there is an interrupt so depends on what is happening during polling and if constantly polling or not. 
+	Estimation: depends on load but most likely interrupt is about twice as efficient as it will work quicker.
