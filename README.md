@@ -1,4 +1,4 @@
-# microprocessor-systems
+# Microprocessor Systems
 
 All assignments for module: CSU23021
 - Assignment 1: Lab 1
